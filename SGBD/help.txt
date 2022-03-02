@@ -1,0 +1,16 @@
+Link:
+cours: https://docs.google.com/presentation/d/1a1LmAgGduFBKFElo5S30r1ayy-YMKGEDpY2AnSxowNQ/edit?usp=sharing
+
+CMD: 
+	-show databases 
+	-create database dbName
+	-show tables
+	-create table tableName( id int auto_increment not null primary key, nom unique, .....,
+		foreign key(id_otherTable) references otherTable(id) on delete cascade on update cascade, ......
+	-describe tableName
+	-drop tableName/dbName;
+	-insert into tableName(field1Name, field2Name....) values(field1Value1, field2Value1.....),(field1Value2, field2Value2)
+
+	-ALTER TABLE tableName ADD COLUMN fieldName type(int, varchar..);
+	-UPDATE tableName SET solde=2000,pays="Italie" WHERE id = 1;
+	-DELETE FROM tableName WHERE id=...
